@@ -36,8 +36,31 @@
     </nav>
 
     <!-- CONTENIDO DE TU PAGINA -->
-    <div class="container">
-        <h1>Contenido de tu pagina</h1>
+    <div class="container text-center mb-5">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <div class="form-gropu">
+                    <h4>Buscar una pieza de ajedrez</h4>
+                    <input type="text" class="form-control" id="textoBusqueda">
+                    <small class="text-muted">Por ejemplo: Peón, Caballo, Rey, etc.</small>
+                </div>
+
+                <button type="button" class="btn btn-primary btn-block m-3" onclick="buscar()">Buscar</button>
+                
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <img src="assets/images/logo.png" alt="" class="img-fluid" id="imgPieza">
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <p id="resultadoBusqueda">No se ha iniciado la búsqueda</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
     <!-- CONTENIDO DE TU PAGINA -->
 
